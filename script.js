@@ -2,7 +2,7 @@
 function one() {
     return function two(hiddenNumber) {
         
-        let userNumber = +prompt('Введите число')
+        let userNumber = +prompt('Угадай число от 1 до 100')
         console.log(hiddenNumber)
         let attempts = 10;
         
